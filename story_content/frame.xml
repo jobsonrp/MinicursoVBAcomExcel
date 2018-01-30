@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001000011" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001000011" font="Open Sans" controllayout="npnxnanbsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="pxabnsnfns00001000011" font="Open Sans" controllayout="pxabnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="npxnabnsnfns00001000011" font="Open Sans" controllayout="npxnabnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="npnxnanbnsnfns00001000011" font="Open Sans" controllayout="npnxnanbnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="pxabnsnfns00001000010" font="Open Sans" controllayout="pxabnsnfns00001000010" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Minicurso - Introdução a Macros e VBA com Excel" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001000011">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCCCCCC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2A2A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x878787" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x363636" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A1A1A" alpha="100" stop="0" />
+                <color rgb="0x313131" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+                <color rgb="0x161616" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x595959" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+                <color rgb="0x4A4A4A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B4B4B" alpha="100" stop="0" />
+                <color rgb="0x3C3C3C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+                <color rgb="0x494949" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+                <color rgb="0x363636" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9C9C9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x161616" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x558ED5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x262626" alpha="100" stop="0" />
+                <color rgb="0x262626" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+                <color rgb="0x000000" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x252525" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+                <color rgb="0x0A0A0A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+                <color rgb="0x292929" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4C4C4C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001000011">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next" />
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev" />
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6OfbitzweyU" displaytext="Introdução" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6OfbitzweyU.6cvcemUOzZN" displaytext="Introdução ao VBA no Excel" expand="false" type="slide" />
+            <slidelink slideid="_player.6OfbitzweyU.5kVVHqcRvID" displaytext="Vantagens" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5w1kaEXSeOg" displaytext="Configuração do Ambiente" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5w1kaEXSeOg.64xtVJpovph" displaytext="Configurar o Microsoft Excel Office" expand="false" type="slide" />
+            <slidelink slideid="_player.5w1kaEXSeOg.5rO15pmpwkx" displaytext="Acesso a Opções do Excel" expand="false" type="slide" />
+            <slidelink slideid="_player.5w1kaEXSeOg.6r2ywhf77i1" displaytext="Ativação da Guia Desenvolvedor" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.66pNwO4SnNZ" displaytext="Informações sobre o Excel" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.66pNwO4SnNZ.6bXKhjjCbvB" displaytext="Definições básicas do Excel - Parte 1" expand="false" type="slide" />
+            <slidelink slideid="_player.66pNwO4SnNZ.6IRZbGYfgsR" displaytext="Definições básicas do Excel - Parte 2" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6aWMQWHBChT" displaytext="Macros" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.6aWMQWHBChT.6kfViLOTVNB" displaytext="O que é Macro?" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.65nskGbnXde" displaytext="Como posso Gravar uma Macro?" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.5xrmdyMAZUR" displaytext="Iniciando a gravação de uma macro" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.6AjOkbZDz7s" displaytext="Abrir a Visual Basic (VBA)" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.5fat4PbcRG6" displaytext="Utilizar o Depurador" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.5ynulSYhg7Z" displaytext="Ativando a Macro com o uso de um botão" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.5jmUZQYuES2" displaytext="Acessar a configuração do Botão" expand="false" type="slide" />
+            <slidelink slideid="_player.6aWMQWHBChT.5gVQlSGhwLG" displaytext="Atribuindo a macro ao botão" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.623htme0LIE" displaytext="Desenvolvendo em VBA" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.623htme0LIE.6oc1QWvthqC" displaytext="Transformando uma macro desenvolvida no Gravador de Macro, através do VBA" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.5s6HQOZVyBh" displaytext="Código criado na gravação da Macro" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.6XLKiCFNrNB" displaytext="Observações na utilização das funções do Visual Basic Editor (VBE)" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.6ddmu8MXTly" displaytext="Apresentando as principais funções do Visual Basic Editor (VBE)" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.5l6wOGmYlQv" displaytext="Funções de Texto do VBA - PARTE 1" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.5mb6I0pzBmf" displaytext="Funções de Texto do VBA - PARTE 2" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.6RRzfKW4Lc4" displaytext="Função para contagem de células não vazias" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.6ngtH5O2dUN" displaytext="Funções mais avançadas do VBA" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.5eUCg4ZoD1D" displaytext="Aprendendo a manipular o Excel com o VBA" expand="false" type="slide" />
+            <slidelink slideid="_player.623htme0LIE.5nkNPayQDGx" displaytext="Aplicando na Prática" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5UojN736mT0" displaytext="Agradecimentos" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5UojN736mT0.6JMXOyLvP9S" displaytext="Agradecimentos" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6OfbitzweyU.6cvcemUOzZN" slidebank="false" type="slide">olá! sou lisa e vou orientar você nesse minicurso que irá apresentar de forma introdutória a utilização de macros e vba com excel.   há várias vantagens em usar o vba com excel. você pode conferir nos próximos itens desse minicurso;  </slidetext>
+      <slidetext slideid="6OfbitzweyU.5kVVHqcRvID" slidebank="false" type="slide">vamos lá!? uma vantagem é eliminar processos manuais. o vba permite que procedimentos que são feitos sistematicamente da mesma forma, ou com a mesma lógica, sejam automatizados através de sua programação. outra vantagem é ganhar tempo e reduzir o trabalho. pois há tarefas que mesmo que se você quisesse realizá-las manualmente, não seria humanamente possível … </slidetext>
+      <slidetext slideid="5w1kaEXSeOg.64xtVJpovph" slidebank="false" type="slide">2.1 configurar o microsoft excel office passo 1 – clicando em “arquivo” no menu do excel, aparece a figura 1, então clique sobre o item “opções” no menu lateral; link:  passo 2 - na janela opções de excel há um menu lateral do lado esquerdo, então neste menu, clique na opção “personalizar faixa de opções” e ative o item “desenvolvedor” como mostrado na figura 2, em seguida clique em ok; link: antes de começar, teremos que fazer algumas configurações! siga as instruções ao lado. figura 1 figura 2 as configurações mostradas neste minicurso podem ser feitas no microsoft office 2013 ou superior. </slidetext>
+      <slidetext slideid="5w1kaEXSeOg.5rO15pmpwkx" slidebank="false" type="slide">2.2 acesso a opções do excel </slidetext>
+      <slidetext slideid="5w1kaEXSeOg.6r2ywhf77i1" slidebank="false" type="slide">2.3 ativação da guia desenvolvedor </slidetext>
+      <slidetext slideid="66pNwO4SnNZ.6bXKhjjCbvB" slidebank="false" type="slide">3.1 definições básicas do excel – parte 1 pasta de trabalho - é o arquivo do excel como um todo, englobando todos os seus objetos, sendo eles planilhas, gráficos, planilhas de macro, tabelas dinâmicas, gráficos dinâmicos e projetos vba. ele é representado fundamentalmente pelo arquivo “fisico”, ou seja, o .xls (que pode ser também xlsx, xlsm, xla, xlt, entre outros formatos que em que o excel pode ser salvo). planilha - é uma “aba”, popularmente falando. normalmente, quando você abre o excel, ele cria automaticamente uma nova pasta de trabalho com 3 planilhas. definições importantes! </slidetext>
+      <slidetext slideid="66pNwO4SnNZ.6IRZbGYfgsR" slidebank="false" type="slide">3.2 definições básicas do excel – parte 2 arquivo – no excel, representa necessariamente uma pasta de trabalho, como foi explicado no item 3.1. para programadores vba, esses conceitos tem que estar obrigatoriamente claros, já que, ao trabalhar com o modelo de objetos do excel. para programadores vba, as definições de “planilha” e “pasta de trabalho” devem estar bem claras, já que, ao trabalhar com o modelo de objetos do excel, ficam bem distintas, sendo representados pelos classes worksheet e workbook no vba.  para fixar melhor segue um exemplo: então uma planilha ou worksheet contém uma coleção de células/cells. por outro lado, a pasta de trabalho ou workbook, obrigatoriamente contém uma coleção de planilhas/worksheets, não sendo possível que ela tenha células diretamente. </slidetext>
+      <slidetext slideid="6aWMQWHBChT.6kfViLOTVNB" slidebank="false" type="slide">4.1 o que é uma macro? macro é uma sequência de comandos e funções que são armazenadas em um módulo de vba (visual basic for applications). estas macros podem ser usadas sempre que for necessário. são usadas, geralmente, em tarefas repetitivas, visando maior rapidez e automação. você já sabe o que é uma macro? há situações em que não é possível executar uma tarefa ou resolver um problema apenas através dos comandos do excel. e são nestes casos que podemos usar as macros e a programação como solução.  confira ao lado a definição. </slidetext>
+      <slidetext slideid="6aWMQWHBChT.65nskGbnXde" slidebank="false" type="slide">4.2 como posso gravar uma macro? se você usa o excel 2013 ou superior, a gravação de uma macro é simples, basta clicar no botão designado na barra de status inferior, como mostrado na figura abaixo: e você sabe como criar uma macro? existem duas maneiras de se criar uma macro: 1. através do uso de uma vba; 2. usando o “gravador de macro”, nas ferramentas do excel. verifique ao lado como gravar. </slidetext>
+      <slidetext slideid="6aWMQWHBChT.5xrmdyMAZUR" slidebank="false" type="slide">4.3 iniciando a gravação de uma macro deve-se digitar um nome para a macro e clicar em ok; você pode associar um atalho no teclado para chamar uma subrotina! é melhor você deixar o local de armazenamento da macro conforme o padrão ”esta pasta de trabalho” dessa forma poderá gerenciar com mais facilidades os outros sistemas. </slidetext>
+      <slidetext slideid="6aWMQWHBChT.6AjOkbZDz7s" slidebank="false" type="slide">4.4 abrir a visual basic (vba) vba é uma implementação do visual basic da microsoft incorporada em todos os programas do microsoft office. dentro desse pacote estão os famosos aplicativos office (word, excel, power point, access, etc). para começar a programar em vba no excel, você deve primeiro abrir o visual basic! </slidetext>
+      <slidetext slideid="6aWMQWHBChT.5fat4PbcRG6" slidebank="false" type="slide">4.5 utilizar o depurador também é conhecido como execução passo-a-passo, e seu atalho é a tecla f8. então, a cada vez que é pressionada, a linha de comando que será executada fica destacada em amarelo. mostrarei para vocês como depurar um código! </slidetext>
+      <slidetext slideid="6aWMQWHBChT.5ynulSYhg7Z" slidebank="false" type="slide">4.6 ativando a macro com o uso de um botão primeiro deve-se inserir um botão, ou seja, um retângulo ou outra figura geométrica conforme figura abaixo: após a criação da macro juntamente com o código, é possível chamar a subrotina por um botão. basta clicar sobre os itens destacados ao lado. </slidetext>
+      <slidetext slideid="6aWMQWHBChT.5jmUZQYuES2" slidebank="false" type="slide">4.7 acessar a configuração do botão primeiro deve-se clicar com o botão da direita do mouse e abrirá as opções conforme figura abaixo. em seguida deve-se clicar na opção “atribuir macro…” acessando as subrotinas por botões é muito mais prático e rápido para os usuários que irão utilizar o sistema implementado em vba. os botões podem ser padronizados pelo desenvolvedor conforme desejar. e até pode ser também uma figura. </slidetext>
+      <slidetext slideid="6aWMQWHBChT.5gVQlSGhwLG" slidebank="false" type="slide">4.8 atribuindo a macro ao botão basta selecionar a macro que deseja atribuir ao botão selecionado, depois ok; você pode criar várias subrotinas para seu sistema e chamá-las como desejar, ou por teclas de atalho ou por botões. após seguir os passos ao lado, pronto! as subrotinas do seu sistema serão ativadas pelos seus respectivos botões.  </slidetext>
+      <slidetext slideid="623htme0LIE.6oc1QWvthqC" slidebank="false" type="slide">5.1 transformando uma macro desenvolvida no gravador de macro, através do vba deve-se seguir os passos do item 4.2 ao 4.4, em seguida deve-se inserir as letras p e f como mostrado na figura abaixo: então, ao preencher a planilha durante a gravação da macro, simultaneamente, o código será gerado no módulo da macro no vbe. perceba que o ícone de gravação de macro alterou para um quadrado, indicando que a gravação está ativa, e se clicar nele a gravação vai parar. </slidetext>
+      <slidetext slideid="623htme0LIE.5s6HQOZVyBh" slidebank="false" type="slide">5.2 código criado na gravação da macro então como deve-se seguir os passos do item 4.2 ao 4.4, em seguida deve-se inserir as letras p e f como mostrado na figura abaixo: você pode testar sua macro gravada de forma simples. basta deletar as letras inseridas na planilha no item 5.1 e em seguida pressionar o botão de executar, destacado ao lado ou sua tecla de atalho f5. então, você irá verificar que a planilha será preenchida novamente! muito bom, não acha!? agora você já pode criar formulários gravando os valores das células de acordo com os padrões desejados. </slidetext>
+      <slidetext slideid="623htme0LIE.6XLKiCFNrNB" slidebank="false" type="slide">5.3 observações na utilização das funções do visual basic editor (vbe) por padrão o vba irá executar as sua ações na planilha ativa. a questão se torna muito importante, naqueles códigos em que são manipuladas diferentes planilhas e arquivos.  nestes casos temos que informar qual objeto workbook ou worksheet deve ser modificado.  propriedades do vba: thisworkbook = referência para o arquivo que contém as macros. activeworkbook = referência para o arquivo recém aberto, ou aquele cuja janela foi mais recentemente ativada. activesheet = referência para a planilha ativa do arquivo ativo (activeworkbook).  para facilitar essas atribuições, existem três propriedades importantes, confiram acima! outro padrão é que se a função range() for usada sem nada, é o mesmo que usar o item .value.   </slidetext>
+      <slidetext slideid="623htme0LIE.6ddmu8MXTly" slidebank="false" type="slide">5.4 apresentando as principais funções do visual basic editor (vbe) como escrever um valor na célula de uma planilha: activesheet.range("b3") = 8 –&gt; esta função escreve o valor inteiro 8 na célula b3 da planilha; como ler um valor de uma célula da planilha: var1 = activesheet.range("b3") –&gt; esta função lê o valor que está na planilha e transfere para a váriavel “var1”. range("b4").select –&gt; a célula b4 da planilha é selecionada; range("b1:i10").select –&gt; a matriz b1:i10 da planilha é selecionada; selection.clearcontents –&gt; tudo que tiver selecionado é deletado.  </slidetext>
+      <slidetext slideid="623htme0LIE.5l6wOGmYlQv" slidebank="false" type="slide">5.5 funções de texto do vba – parte 1 trim – retira os espaços existentes antes e depois das strings. exemplo: range("a2").value = " maria" variavelsemespaço = trim(range("a2").value)	’ o resultado é “maria”  len – retorna a quantidade de caracteres de palavras ou texto 	range("a2").value = mail@mail.com.br 	varqtde = len(range("a2").value)	’ o resultado é 16 "&amp;" - é  o simbolo utilizado para concatenar strings no vba 	range("a1").value  = “maria”  	range("a2").value  = “ silva” 	result = range("a1").value &amp; range("a2").value  	’ o resultado é “maria silva” * percebam que nestes exemplos activesheet foi retirado, como explicado no item 5.3. * o “.value” após a função range poderia ser retirado nestes exemplos conforme explicado no item 5.3.   </slidetext>
+      <slidetext slideid="623htme0LIE.5mb6I0pzBmf" slidebank="false" type="slide">instr –  serve para identificar o índice de um determinado caracter em uma palavra ou texto. exemplo: 	range("a2").value = mail@mail.com.br 	varlocal = instr(1,range("a2").value,"@")	’ o resultado é 5 ucase – transformar palavras ou frases todas em caracteres maiúsculos. exemplo: range("b2").value = "empresa ltda" varmaiuscula = ucase(range("b2").value	’ o resultado é “empresa ltda” lcase – transformar palavras ou frases todas em caracteres minúsculos. range("b2").value = "lápis" varminuscula = lcase(range("c2").value	’ o resultado é “lápis”   5.6 funções de texto do vba – parte 2 </slidetext>
+      <slidetext slideid="623htme0LIE.6RRzfKW4Lc4" slidebank="false" type="slide">5.7 função para contagem de células não vazias no exemplo 1 da aula prática do minicurso foi utilizado o comando abaixo para calcular a quantidade das células não vazias.    activesheet.range("a:a").cells.specialcells(xlcelltypeconstants).count detalhando: activesheet.range("a:a") – indica que a coluna a inteira será verificada; cells.specialcells(xlcelltypeconstants) – indica se cada célula verificada contém algum caracter; count – irá contar os casos verdadeiros. * caso seja necessário verificar as células de uma linha inteira deve-se usar a mesma função da seguinte forma: activesheet.range("6:6") – indica que a linha 6 inteira será verificada; </slidetext>
+      <slidetext slideid="623htme0LIE.6ngtH5O2dUN" slidebank="false" type="slide">5.8 funções mais avançadas do vba no exemplo 2 da aula prática do minicurso foram utilizados os comandos abaixo;    activesheet é o objeto da aba ativa exportasfixedformat é o método usado para publicar uma pasta de trabalho no formato pdf ou xps. os demais que tem vírgula type, filename são argumentos da função e podem ser dinamicamente modificadas criando variáveis e concatenando aos argumentos. </slidetext>
+      <slidetext slideid="623htme0LIE.5eUCg4ZoD1D" slidebank="false" type="slide">5.9 aprendendo a manipular o excel com o vba através das funções apresentadas nos itens 5.3 a 5.8 é possível manipular e interagir de um ambiente para o outro sem problemas como foi ensinado no exemplo 1 da aula prática deste minicurso; </slidetext>
+      <slidetext slideid="623htme0LIE.5nkNPayQDGx" slidebank="false" type="slide">5.10 aplicando na prática no item anterior, 5.9, tem praticamente todo o código do exemplo 1, então neste item (5.10) pode-se ver abaixo uma parte do código do exemplo 2 que foi bem mais elaborado: </slidetext>
+      <slidetext slideid="5UojN736mT0.6JMXOyLvP9S" slidebank="false" type="slide">agradeço a atenção e espero ter ajudado nas informações passadas.  para testar o conhecimento adquirido neste minicurso acesse o quiz e responda as perguntas. link do quiz: vba com excel  universidade federal de pernambuco - ufrpe curso: sistemas de informação disciplina: tendências tecnológicas em tic professora: roberta rea elaborado e editado pelos alunos: carlos ivan jobson rocha se ainda tiver alguma dúvida basta acessar novamente alguma parte desse minicurso. </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
